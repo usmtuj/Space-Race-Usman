@@ -1,0 +1,522 @@
+/* defoult */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    scroll-margin-bottom: 10000px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    /* border: 1px solid red !important; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-attachment: fixed;
+    background-image: url(../изображения/WhatsApp\ Image\ 2024-10-16\ at\ 16.36.41.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+/* header */
+
+.section{
+    
+    border-radius: 30px;
+    border: 3px solid rgb(0, 6, 121);
+    width: 90% ;
+    background-color: rgba(0, 5, 91, 0.375);
+}
+
+.header{
+    z-index: 10000;
+    backdrop-filter: blur(8px);
+    top: 0%;
+    margin-top: 30px;
+    width: 90% ;
+    background-color: rgba(0, 5, 91, 0.375);
+    padding: 15px;
+    position: fixed;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 6, 121);
+}
+
+.navbar_logo{
+    font-size: 23px;
+    color: white;
+    font-weight: 900;
+}
+
+.navbar_logo i{
+    color: rgb(152, 168, 255);
+}
+
+.logo_blue{
+    color: rgb(97, 97, 255);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+}
+
+.container ul{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+.container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.call-btn{
+    border: 3px solid rgb(0, 0, 108);
+    border-radius: 50px;
+    padding: 13px 40px;
+    background-color: rgb(0, 0, 108);
+}
+
+li a:hover{
+    transition: 0.5s;
+    color: rgb(150, 150, 255);
+}
+
+.call-btn:hover{
+    color: rgb(114, 114, 255);
+    transition: 0.5s;
+    background-color: transparent;
+}
+
+/* hero */
+
+.hero{
+
+    margin-top: 170px;
+    width: 90%;
+    height: 70vh;
+}
+
+.hero img{
+    width: 390px;
+}
+
+.hero_wrapper{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.section_wrapper_text{
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.section_wrapper_text h4{
+    margin-top: 40px;
+}
+
+.btn{
+    font-size: 22px;
+    position: relative;
+    top: 30px;
+    color: rgb(0, 170, 255);
+}
+
+.btn a:checked{
+    color: rgb(0, 56, 177);
+}
+
+/* about us*/
+
+.about-us_wrapper{
+    display: grid;
+    place-items: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.about-us{
+    margin-top: 120px;
+    height: 70vh;
+    width: 90%;
+}
+
+.rocket{
+    position: relative;
+    width: 300px;
+    top: 30px;
+}
+
+.about-wrapper{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us_wrapper_text{
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-us_wrapper_text h1{
+    margin: 50px;
+}
+.about-btn{
+    font-size: 19px;
+}
+
+/* services */
+
+.services{
+    display: grid;
+    place-items: center;
+    width: 90% ;
+    margin-top: 120px;
+    color: white !important;
+    height: 100vh;
+}
+
+.services_wrapper{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.services_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 93%;
+}
+
+.service_card{
+    transition: .3s;
+    width: 30%;
+    border: 3px solid rgb(0, 6, 121);
+    background-color: rgba(0, 5, 91, 0.375);
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+.service_card:hover {
+    cursor: pointer;
+    transform: scale(105%);
+
+}
+.services_title{
+    font-size: 35px;
+}
+
+.services_card-title{
+    font-size: 35px;
+}
+.services_card-text{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.services_card-subtitle{
+    width: 80%;
+}
+
+.services_card-text i{
+    font-size: 80px;
+}
+
+.services_card-list{
+    position: relative;
+    left: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* coments */
+
+.comments{
+    color: white !important;
+    display: grid;
+    place-items: center;
+    width: 90% ;
+    height: 80vh;
+    margin-top: 130px;
+}
+.comments_wrapper{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+.comments_title{
+    width: 300px;
+    text-align: center;
+    font-size: 25px;
+}
+.comments_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 100%;
+    height: 300px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.comment_card{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 185, 0.455);
+    width: 400px;
+    display: flex;
+    padding: 30px;
+    border-radius: 30px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+.comment_head{
+    font-size: 25px;
+    font-weight: 600;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.comment_logo{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../изображения/супер\ сергей.jpg);
+}
+
+.olga{
+    background-image: url(../изображения/плейсхолдер\ пользователь.jpg);
+}
+
+.amogus{
+    background-image: url(../изображения/амогус.jpg);
+}
+.comment_card:hover{
+    cursor: pointer;
+    transform: scale(105%);
+}
+
+/* shop */
+
+.shop{
+    margin-top: 130px;
+    color: white;
+    height: 90vh;
+}
+
+.shop_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.shop_title{
+    font-size: 25px;
+}
+.shop-cards_list{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 1200px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+.shop_card{
+    border-radius: 30px;
+    background-color: rgba(0, 0, 182, 0.292);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 250px;
+}
+
+
+.shop_bottom{
+    width: 200px;
+    display: grid;
+    place-items: center;
+    gap: 15px;
+    
+}
+.price{
+    font-size: 23px;
+    font-weight: 600;
+}
+.shop_card-btn{
+    transition: .5s;
+    text-decoration: none !important;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 175, 0.658);
+}
+
+.shop_card-title{
+    font-weight: 300;
+}
+.shop_image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    background-image: url(../изображения/скафандр\ мод.jpg);
+}
+
+.shop_card-btn:hover{
+    box-shadow: 1px 1px 37px -3px rgba(0,0,255,0.75);
+}
+.ps{
+    background-image: url(../изображения/плейстейшн.jpg);
+}
+.lk{
+    background-image: url(../изображения/луна.jpg);
+}
+.pm{
+    background-image: url(../изображения/песок\ с\ марса.jpg);
+}
+
+/* contacs */
+
+.contacs{
+    display: grid;
+    place-items: center;
+    color: white !important;
+    height: 90vh;
+    margin-top: 130px;
+}
+
+.contacs_wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacs_title{
+    font-size: 25px;
+}
+.form{
+    background-color: rgba(0, 0, 91, 0.47);
+    margin-right: 80px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    justify-content: center;
+}
+.input-email{
+    width: 155px;
+    border: 2px solid blue;
+    color: white !important;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 177, 0.451);
+}
+
+.email{
+    width: 202px;
+}
+
+.input-email::placeholder{
+    color: white;
+}
+
+.phone-input::placeholder{
+    color: white;
+}
+.phone-input{
+    border: 2px solid blue;
+    color: white !important;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 177, 0.451);
+}
+.submit{
+    background-color: rgba(0, 0, 177, 0.451);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 1px solid blue;
+}
+
+/* footer */
+
+.footer{
+    color: white;
+    height: 20vh;
+    margin-top: 50px;
+    background-color: rgba(0, 7, 55, 0.66);
+    border: 3px solid rgb(16, 0, 157);
+}
+
+.footer_wrapper{
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
